@@ -4,4 +4,5 @@
  
   tasks:
   - name: get variables
-    debug: var=hostvars[inventory_hostname]
+    debug:
+      var: hostvars[inventory_hostname]
